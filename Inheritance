@@ -1,0 +1,16 @@
+class Animal
+  {
+    geteat()
+    {
+      console.log("animal");
+    }
+  }
+class Dog extends Animal
+  {
+    getbark()
+    {
+      console.log("Dog");
+    }
+  }
+const ins=new Dog();
+console.log(ins.getbark());
