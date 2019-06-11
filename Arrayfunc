@@ -1,0 +1,4 @@
+var arg=[1,2,3,4,5];
+console.log(arg.length);
+var removeItems=arg.splice(1,2);
+console.log(removeItems);
