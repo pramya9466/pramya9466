@@ -1,0 +1,4 @@
+var arguments = [1, 2, 3];
+var arr = () => arguments[0];
+
+console.log(arr()); 
