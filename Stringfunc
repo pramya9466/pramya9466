@@ -1,0 +1,27 @@
+var str="I am Ramya".indexOf("am");
+console.log(str);
+
+var substr="i am ramya".substr(1,5);
+console.log(substr);
+
+var split="i am ramya".split(" ");
+console.log(split);
+
+var strlen="I am Ramya";
+console.log(strlen.length);
+
+var strsearch="I am Ramya".search("am");
+console.log(strsearch);
+
+var upper="ramya";
+console.log(upper.toUpperCase());
+
+var upper="RAMYA";
+console.log(upper.toLowerCase());
+
+var str="Ramya";
+var str1="Paramasivam";
+console.log(str.concat(str1));
+
+var str="ramya";
+console.log(str.charAt(1));
