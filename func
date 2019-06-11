@@ -1,0 +1,6 @@
+var add=function(num,num1)
+{
+return num+num1;
+}
+var result=add(10,20);
+console.log(result);
